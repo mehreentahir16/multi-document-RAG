@@ -2,6 +2,8 @@
 
 A Retrieval-Augmented Generation system that answers questions across multiple document types using semantic search and LLM generation.
 
+![Multi Doc RAG UI](images/UI.png)
+
 ## Overview
 
 This system processes and queries four different document types:
@@ -18,6 +20,7 @@ Users can ask natural language questions and receive answers with source citatio
 
 The following diagram shows a high-level overview of the system architecture. 
 
+![System Architecture](images/architecture.png)
 
 The system has following main components.
 
@@ -174,6 +177,8 @@ LangChain provides standard interface and makes it easy to swap models or add fe
 ## Evaluation Results
 
 Ran 8 test queries across all document types. The following image summarize the evaluation results.
+
+![Evaluation results](images/eval.png)
 
 ---
 
